@@ -21,4 +21,4 @@ Use the `dwh.cfg` to setup credentials for the redshift cluster and aws service 
 
 Run the `requirements.txt` to install all the dependencies. Run the `./src/create_tables.py` followed by `./src/etl.py`
 
-The notebook `test.ipynb`, runs queries against the data warehouse and prints the total number of rows in each table.
+The notebook `./src/test.ipynb`, runs queries against the data warehouse and prints the total number of rows in each table.
